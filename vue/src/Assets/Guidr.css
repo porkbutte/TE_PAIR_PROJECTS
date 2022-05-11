@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+#main-body {
+    background-color: #1c3947;
+}
+
+.header {
+    width: 100%;
+    height: 160px;
+    display: block;
+    background-image: url('PNC-Park-Downtown-Pittsburg-Di.png');
+    background-size: cover;
+    background-position: bottom;
+    
+    
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.title_container h1 {
+    font-family: "Playfair Display," Times, serif;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: bold;
+    color: #f2cd13;
+    margin-bottom: 0px;
+}
+
+.title_container h4 {
+    font-family: "Playfair Display," Times, serif;
+    font-size: medium;
+    font-style: italic;
+    font-weight: normal;
+    color:aliceblue;
+}
+
+.title_container {
+    height: 100%;
+    display: table;
+    float: left;
+    
+}
+
+.navigation {
+    float: left;
+    height: 100%;
+    color: #f2cd13;
+    font-weight: bold;
+    font-family: "Playfair Display," Times, serif;
+    font-size: large;
+}
+
+li {
+    display: inline;
+}
